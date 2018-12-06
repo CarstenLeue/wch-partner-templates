@@ -1,0 +1,13 @@
+{
+  "id": "3fb75fda-4ff2-42a0-be53-69837df22f43",
+  "rev": "1-bd6885dc2c89941b047f1fa4204a4cc0",
+  "name": "favicons",
+  "classification": "layout",
+  "prerender": true,
+  "template": "/templates/favicons/favicons.hbs",
+  "templateType": "handlebars",
+  "thumbnail": {
+    "path": "/layouts/thumbnails/manifest/web-app-manifest.jpg"
+  },
+  "urlTemplate": "{templateLocation}/{id}_favicons.html"
+}

@@ -1,0 +1,85 @@
+{
+  "mediaType": "image/png",
+  "name": "bee.png",
+  "path": "/dxdam/cb/cbaecf7e-86a4-454c-be3e-de3802def621/bee.png",
+  "digest": "7DI6yhxdVuKsbpiu7MfkOg==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-09-22T10:43:13.600Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:protective covering",
+      "classification:palette",
+      "classification:figure",
+      "classification:shield",
+      "classification:primary color for light",
+      "classification:plate",
+      "classification:spectrum of colors",
+      "classification:circle",
+      "classification:bottle green color",
+      "classification:emerald color"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:spectrum of colors",
+      "classification:palette",
+      "classification:plate",
+      "classification:shield",
+      "classification:protective covering",
+      "classification:primary color for light",
+      "classification:circle",
+      "classification:figure",
+      "classification:bottle green color",
+      "classification:emerald color"
+    ]
+  },
+  "isManaged": true,
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "bee.png",
+  "creatorId": "52ced8d7-9e49-484b-8bae-91d1a9b38fcc",
+  "rev": "3-dc495dd00e1336251743a66d1eb39361",
+  "cognitive": {
+    "classifications": [
+      "spectrum of colors",
+      "palette",
+      "plate",
+      "shield",
+      "protective covering",
+      "primary color for light",
+      "circle",
+      "figure",
+      "bottle green color",
+      "emerald color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#e58224",
+      "darkVibrant": "#1a7a3b",
+      "darkMuted": "#1b3520",
+      "lightVibrant": "#e8445d"
+    },
+    "status": "complete"
+  },
+  "id": "cbaecf7e-86a4-454c-be3e-de3802def621",
+  "resource": "ffd75e36af7e2402fd893293de1e7beb",
+  "fileSize": 3761,
+  "status": "ready",
+  "lastModifierId": "52ced8d7-9e49-484b-8bae-91d1a9b38fcc",
+  "renditions": {
+    "default": {
+      "id": "r=ffd75e36af7e2402fd893293de1e7beb&a=cbaecf7e-86a4-454c-be3e-de3802def621",
+      "source": "/authoring/v1/resources/ffd75e36af7e2402fd893293de1e7beb"
+    }
+  },
+  "metadata": {
+    "width": 192,
+    "height": 192
+  },
+  "classification": "asset",
+  "created": "2017-09-22T10:42:42.284Z"
+}

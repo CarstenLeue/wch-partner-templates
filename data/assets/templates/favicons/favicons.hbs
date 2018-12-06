@@ -1,0 +1,30 @@
+<!-- standard favicons -->
+{{#each elements.icon.renditions}}
+{{#if width}}
+<link rel="icon" type="{{@root.elements.icon.asset.mediaType}}" href="{{url}}" sizes="{{width}}x{{height}}">
+<link rel="apple-touch-icon" type="{{@root.elements.icon.asset.mediaType}}" href="{{url}}" sizes="{{width}}x{{height}}">
+{{/if}}
+{{/each}}
+
+<!-- MS specific stuff -->
+<meta name="application-name" content="{{{elements.short_name.value}}}">
+{{#if description}}
+<meta name="msapplication-tooltip" content="{{{description}}}">
+{{/if}}
+<meta name="msapplication-starturl" content="./index.html">
+
+<!-- apple specific stuff -->
+<meta name="apple-mobile-web-app-title" content="{{{elements.short_name.value}}}">
+
+<!-- the application is web-app-capable if the display mode is either fullscreen or standalone-->
+{{#if elements.fullscreen.value}}
+<meta name="apple-mobile-web-app-capable" content="true">
+{{/if}}
+{{#if elements.standalone.value}}
+<meta name="apple-mobile-web-app-capable" content="true">
+{{/if}}
+
+<!-- colors -->
+{{#if elements.theme_color.value}}
+<meta name="apple-mobile-web-app-status-bar-style" content="{{{elements.theme_color.value}}}">
+{{/if}}

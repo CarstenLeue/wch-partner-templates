@@ -1,0 +1,116 @@
+{
+  "classification": "content",
+  "description": "Application Manifest",
+  "elements": {
+    "background_color": {
+      "elementType": "text"
+    },
+    "browser": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "context_root": {
+      "elementType": "text",
+      "value": "sample-wch-spa"
+    },
+    "fullscreen": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "icon": {
+      "asset": {
+        "fileName": "bee.png",
+        "fileSize": 3761,
+        "id": "cbaecf7e-86a4-454c-be3e-de3802def621",
+        "mediaType": "image/png",
+        "resourceUri": "/authoring/v1/resources/ffd75e36af7e2402fd893293de1e7beb"
+      },
+      "elementType": "image",
+      "renditions": {
+        "apple_touch_icon": {
+          "height": 152,
+          "renditionId": "99d2ceee-5d4e-44e6-b6ca-73e40340a13e",
+          "source": "/authoring/v1/resources/ffd75e36af7e2402fd893293de1e7beb?resize=152px:152px&crop=152:152;0,0",
+          "width": 152
+        },
+        "default": {
+          "renditionId": "r=ffd75e36af7e2402fd893293de1e7beb&a=cbaecf7e-86a4-454c-be3e-de3802def621",
+          "source": "/authoring/v1/resources/ffd75e36af7e2402fd893293de1e7beb"
+        },
+        "icon_normal": {
+          "height": 32,
+          "renditionId": "a09c31e9-7a16-4b0f-b86b-10e994b03e04",
+          "source": "/authoring/v1/resources/ffd75e36af7e2402fd893293de1e7beb?resize=32px:32px&crop=32:32;0,0",
+          "width": 32
+        },
+        "icon_small": {
+          "height": 16,
+          "renditionId": "8aeacf3c-ce78-46b8-848f-19355b4e3249",
+          "source": "/authoring/v1/resources/ffd75e36af7e2402fd893293de1e7beb?resize=16px:16px&crop=16:16;0,0",
+          "width": 16
+        },
+        "launcher_icon_1x": {
+          "height": 48,
+          "renditionId": "2690c7e8-3f5e-4938-9019-a1613f054936",
+          "source": "/authoring/v1/resources/ffd75e36af7e2402fd893293de1e7beb?resize=48px:48px&crop=48:48;0,0",
+          "width": 48
+        },
+        "launcher_icon_2x": {
+          "height": 96,
+          "renditionId": "ef4dfb63-b3a6-4cf6-b05e-30ef5ba61bbf",
+          "source": "/authoring/v1/resources/ffd75e36af7e2402fd893293de1e7beb?resize=96px:96px&crop=96:96;0,0",
+          "width": 96
+        },
+        "launcher_icon_4x": {
+          "height": 192,
+          "renditionId": "0fae6525-c694-4342-ad33-44f3fda2c87f",
+          "source": "/authoring/v1/resources/ffd75e36af7e2402fd893293de1e7beb?resize=192px:192px&crop=192:192;0,0",
+          "width": 192
+        },
+        "ms_touch_icon": {
+          "height": 144,
+          "renditionId": "48861488-8531-4d1f-be77-3347ec2b45f8",
+          "source": "/authoring/v1/resources/ffd75e36af7e2402fd893293de1e7beb?resize=144px:144px&crop=144:144;0,0",
+          "width": 144
+        },
+        "touch_icon": {
+          "height": 128,
+          "renditionId": "4d1725fc-4e5b-405c-a142-770d6a0aa70c",
+          "source": "/authoring/v1/resources/ffd75e36af7e2402fd893293de1e7beb?resize=128px:128px&crop=128:128;0,0",
+          "width": 128
+        }
+      }
+    },
+    "minimal_ui": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "name": {
+      "elementType": "text",
+      "value": "sample-wch-spa"
+    },
+    "short_name": {
+      "elementType": "text",
+      "value": "sample-wch-spa"
+    },
+    "standalone": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "theme_color": {
+      "elementType": "text"
+    }
+  },
+  "id": "18e0e97e-7d32-4601-9ab8-655203f2c039",
+  "keywords": [],
+  "kind": [],
+  "locale": "en",
+  "name": "wchSpaSampleWebAppManifest",
+  "rev": "I/H+mt17MwtrfavHIbm1XGkGwmJfYxzt+Ev6IMtLGFM=",
+  "status": "ready",
+  "tags": [],
+  "thumbnail": {
+    "id": "cbaecf7e-86a4-454c-be3e-de3802def621"
+  },
+  "typeId": "3900cd47-0f9a-45a9-892f-3f9a3e42c751"
+}

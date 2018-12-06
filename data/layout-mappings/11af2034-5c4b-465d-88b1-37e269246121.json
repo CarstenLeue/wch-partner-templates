@@ -1,0 +1,24 @@
+{
+  "classification": "layout-mapping",
+  "id": "11af2034-5c4b-465d-88b1-37e269246121",
+  "mappings": [
+    {
+      "layouts": [
+        {
+          "id": "72b59cc2-3664-4a55-a8df-3604b503ed47"
+        },
+        {
+          "id": "3fb75fda-4ff2-42a0-be53-69837df22f43"
+        }
+      ],
+      "defaultLayout": {
+        "id": "72b59cc2-3664-4a55-a8df-3604b503ed47"
+      }
+    }
+  ],
+  "name": "11af2034-5c4b-465d-88b1-37e269246121",
+  "rev": "rA3EBD/BX/t1oCumndTlBqqRgqBF3DISMA1jKXlEkAY=",
+  "type": {
+    "id": "3900cd47-0f9a-45a9-892f-3f9a3e42c751"
+  }
+}

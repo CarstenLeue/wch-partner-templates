@@ -1,0 +1,13 @@
+{
+  "id": "72b59cc2-3664-4a55-a8df-3604b503ed47",
+  "rev": "1-bd6885dc2c89941b047f1fa4204a4cc0",
+  "name": "web-app-manifest",
+  "classification": "layout",
+  "prerender": true,
+  "template": "/templates/manifest/web-app-manifest.hbs",
+  "templateType": "handlebars",
+  "thumbnail": {
+    "path": "/layouts/thumbnails/manifest/web-app-manifest.jpg"
+  },
+  "urlTemplate": "{templateLocation}/{id}_manifest.json"
+}

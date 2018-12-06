@@ -1,0 +1,32 @@
+{
+  "short_name": "{{{elements.short_name.value}}}",
+  "name": "{{{elements.name.value}}}",
+  "description": "{{{description}}}",
+  "display": "{{#if elements.fullscreen.value}}fullscreen{{else}}{{#if elements.standalone.value}}standalone{{else}}{{#if elements.minimal_ui.value}}minimal_ui{{else}}browser{{/if}}{{/if}}{{/if}}",
+  "icons": [
+{{#each elements.icon.renditions}}
+{{#if width}}
+    {
+      "src": "{{{url}}}",
+      "type": "{{{@root.elements.icon.asset.mediaType}}}",
+      "sizes": "{{{width}}}x{{{height}}}"
+    },
+{{/if}}
+{{/each}}
+
+{{#with elements.icon.renditions.default}}
+    {
+      "src": "{{{url}}}",
+      "type": "{{{@root.elements.icon.asset.mediaType}}}"
+    }
+{{/with}}
+
+  ],
+  "start_url": "./index.html"
+{{#if elements.theme_color.value}}
+  , "theme_color": "{{{elements.theme_color.value}}}"
+{{/if}}
+{{#if elements.background_color.value}}
+  , "background_color": "{{{elements.background_color.value}}}"
+{{/if}}
+}

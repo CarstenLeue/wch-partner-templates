@@ -1,0 +1,3 @@
+{
+  "x-ibm-dx-tenant-base-url": "${WCH_API_URL}"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "cc4411cb-7fbe-49ea-8c49-16edfb63ade5",
+  "rev": "7-303f811f802e197a07894024fa36b0c0",
+  "name": "wchSpaSampleWebAppManifest",
+  "classification": "image-profile",
+  "creatorId": "870a3cbb-2d36-4cff-ba6f-46de398aca5f",
+  "created": "2018-03-15T16:43:46.528Z",
+  "lastModifierId": "870a3cbb-2d36-4cff-ba6f-46de398aca5f",
+  "lastModified": "2018-03-15T16:43:46.528Z",
+  "dimensions": [
+    {
+      "label": "Launcher Small",
+      "key": "launcher_icon_1x",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "label": "Launcher Medium",
+      "key": "launcher_icon_2x",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "label": "Launcher Large",
+      "key": "launcher_icon_4x",
+      "width": 192,
+      "height": 192
+    },
+    {
+      "label": "Icon Touch",
+      "key": "touch_icon",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "label": "Apple Touch",
+      "key": "apple_touch_icon",
+      "width": 152,
+      "height": 152
+    },
+    {
+      "label": "MS Touch",
+      "key": "ms_touch_icon",
+      "width": 144,
+      "height": 144
+    },
+    {
+      "label": "Icon Small",
+      "key": "icon_small",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "label": "Icon Normal",
+      "key": "icon_normal",
+      "width": 32,
+      "height": 32
+    }
+  ]
+}

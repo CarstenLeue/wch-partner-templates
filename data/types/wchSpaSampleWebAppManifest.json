@@ -1,0 +1,83 @@
+{
+  "id": "3900cd47-0f9a-45a9-892f-3f9a3e42c751",
+  "rev": "17-5cd9a2c8bb8efb9adc2f7e902086ce81",
+  "name": "wchSpaSampleWebAppManifest",
+  "classification": "content-type",
+  "kind": ["standalone"],
+  "contentThumbnail": {
+    "imageElement": "icon",
+    "source": "imageElementOrType"
+  },
+  "description": "",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "text",
+      "label": "Context Root",
+      "key": "context_root",
+      "required": false
+    },
+    {
+      "elementType": "text",
+      "label": "Short Name",
+      "key": "short_name",
+      "required": true,
+      "minLength": 1
+    },
+    {
+      "elementType": "text",
+      "label": "Name",
+      "key": "name",
+      "required": true,
+      "minLength": 1
+    },
+    {
+      "elementType": "image",
+      "label": "Icon",
+      "key": "icon",
+      "required": true,
+      "acceptType": ["png"],
+      "imageProfileId": "cc4411cb-7fbe-49ea-8c49-16edfb63ade5"
+    },
+    {
+      "elementType": "text",
+      "label": "Background Color",
+      "key": "background_color",
+      "required": false,
+      "maxLength": 7,
+      "helpText": "Defines the expected background color for the web application. This value repeats what is already available in the application stylesheet, but can be used by browsers to draw the background color of a web application when the manifest is available before the style sheet has loaded. This creates a smooth transition between launching the web application and loading the application's content."
+    },
+    {
+      "elementType": "text",
+      "label": "Theme Color",
+      "key": "theme_color",
+      "maxLength": 7,
+      "helpText": "Defines the default theme color for an application. This sometimes affects how the application is displayed by the OS (e.g., on Android's task switcher, the theme color surrounds the application)."
+    },
+    {
+      "elementType": "toggle",
+      "label": "Fullscreen",
+      "key": "fullscreen",
+      "helpText": "All of the available display area is used and no user agent chrome is shown."
+    },
+    {
+      "elementType": "toggle",
+      "label": "Standalone",
+      "key": "standalone",
+      "helpText": "The application will look and feel like a standalone application. This can include the application having a different window, its own icon in the application launcher, etc. In this mode, the user agent will exclude UI elements for controlling navigation, but can include other UI elements such as a status bar."
+    },
+    {
+      "elementType": "toggle",
+      "key": "minimal_ui",
+      "label": "Minimal UI",
+      "helpText": "The application will look and feel like a standalone application, but will have a minimal set of UI elements for controlling navigation. The elements will vary by browser."
+    },
+    {
+      "elementType": "toggle",
+      "label": "Browser",
+      "key": "browser",
+      "helpText": "The application opens in a conventional browser tab or new window, depending on the browser and platform. This is the default."
+    }
+  ]
+}
